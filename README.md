@@ -1,16 +1,9 @@
 # sfguide-getting-started-with-model-serving-in-spcs
 
-Snowflake ML: Chicago Bus Ridership Forecasting
+## Overview
 This project demonstrates a complete, end-to-end machine learning workflow for time-series forecasting using the Snowflake ML library. The goal is to predict daily Chicago bus ridership by training, deploying, and managing an XGBoost model entirely within the Snowflake ecosystem.
 
-The notebook showcases how to leverage Snowflake's powerful features for data engineering, model training, and deployment, providing a scalable and efficient MLOps solution.
+This project demonstrates a complete, end-to-end MLOps workflow for time-series forecasting, managed entirely within the Snowflake ecosystem. It simplifies the machine learning lifecycle by handling secure data connection, distributed feature engineering, scalable model training, and deployment as a service. The solution streamlines development by leveraging the Snowflake ML library, Feature Store, and Model Registry for a governed, reproducible, and efficient framework. By deploying the final model to Snowpark Container Services (SPCS), it enables real-time forecasting through a single, scalable platform.
 
-Key Features Demonstrated
-Secure Connection: Establishing a secure connection to Snowflake using the Snowpark Python API.
-Lazy DataFrames: Loading data from Snowflake tables into Snowpark DataFrames for transformations.
-Snowflake Feature Store: Creating and managing features for consistent use in training and inference.
-Distributed Feature Engineering: Performing data preparation and feature engineering at scale within Snowflake.
-Distributed Model Training: Training a gradient-boosting model using Snowpark ML's distributed processing capabilities.
-Snowflake Model Registry: Storing and versioning the trained model for governance and reproducibility.
-In-Database Scoring: Running model predictions directly inside Snowflake warehouses.
-Model Deployment: Deploying the model as a service to Snowpark Container Services (SPCS) for real-time inference.
+## Step-by-Step Guide
+For prerequisites, environment setup, step-by-step guide and instructions, please refer to the [QuickStart Guide](https://quickstarts.snowflake.com/guide/snowpark-container-services-model-serving-guide/index.html?index=..%2F..index#0).
